@@ -791,8 +791,8 @@ python-versions = "*"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9.1"
-content-hash = "138cf1d7e88fc713972d33a7272884f4abfa36b20e8449b9001f411cdca77d39"
+python-versions = "3.9.4"
+content-hash = "fbdf83d99bc418da9b01d1dbbab58963447af0c845eb017ae36e626afa9856e4"
 
 [metadata.files]
 arrow = [
