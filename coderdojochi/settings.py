@@ -380,5 +380,9 @@ if DEBUG:
     }
 
 
+# Avoid unwanted migrations in the future, either explicitly set DEFAULT_AUTO_FIELD to AutoField
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
+
+
 # Activate Django-Heroku.
 django_heroku.settings(locals(), staticfiles=False)
